@@ -11,23 +11,38 @@ https://ast-astrec.nict.go.jp/en/release/NICT-Tib1/
 The files have been compressed in 'zip' format (~3.0G). The extracted directory should look like the following.
 
 Tibetan/
+
     data/
+    
        speaker-id/
+       
                  speaker-session-id/
+                 
                                     wave-files
+                                    
     wav.scp (kaldi format)
+    
     label.txt (kaldi format)
+    
     README
+
 
 
 # Citation
 Please cite the following when using the corpus.
 
 @INPROCEEDINGS{nict-tib1,
+
   author={Soky, Kak and Gong, Zhuo and Li, Sheng},
+  
   booktitle={Proc. O-COCOSDA}, 
+  
   title={Nict-Tib1: A Public Speech Corpus Of Lhasa Dialect For Benchmarking Tibetan Language Speech Recognition Systems}, 
+  
   year={2022},
+  
   pages={1-5},
+  
   doi={10.1109/O-COCOSDA202257103.2022.9997917}}
+  
 
